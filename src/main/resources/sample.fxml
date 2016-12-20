@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="textField1" layoutX="30.0" layoutY="43.0" prefHeight="25.0" prefWidth="191.0" promptText="Арифметическое выражение" />
+      <Button fx:id="button1" layoutX="88.0" layoutY="100.0" mnemonicParsing="false" onAction="#setButton1" text="Перевести" />
+      <TextArea fx:id="textArea1" editable="false" layoutX="25.0" layoutY="138.0" prefHeight="65.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
