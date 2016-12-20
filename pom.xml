@@ -11,7 +11,7 @@
         <start-class>sample.Main</start-class>
     </properties>
     <build>
-        <finalName>DM_KR1_Kuzora</finalName>
+        <finalName>SIAOD_KR1_Kuzora</finalName>
         <plugins>
             <!-- Make this jar executable -->
             <plugin>
