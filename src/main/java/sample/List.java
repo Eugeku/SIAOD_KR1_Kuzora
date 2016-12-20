@@ -4,6 +4,11 @@ import java.io.Serializable;
 
 /**
  * Created by Eugene13 on 12.12.2016.
+ * Class List:
+ * 1) Класс реализует методы добавления элемента в конец,
+ * извлечение элемента из хвоста, считываение элемента из хвоста,
+ * проверка на наличие элементов в листе;
+ * 2) Данный список реализован как очередь LIFO(стек);
  */
 class List<E> implements Serializable {
     private ListElement<E> head;

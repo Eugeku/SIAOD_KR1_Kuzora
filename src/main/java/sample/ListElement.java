@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 /**
  * Created by Eugene13 on 12.12.2016.
+ * Class ListElement:
+ * 1) Каждый элемент хранит ссылка на следующий элемент в поле next;
  */
 class ListElement<E> implements Serializable {
     private E someValue;
