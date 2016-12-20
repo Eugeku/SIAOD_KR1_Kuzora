@@ -40,9 +40,9 @@ class Translator {
     String translate() {
         for (char c : characters) {
             if (getPriority(c) == -1) string += c;
-            else if (((getPriority(c) == 0) || getPriority(c) >= getPriority(characterList.readTailElement())) & (c != ')')) {
+            else if (((getPriority(c) == 0) || getPriority(c) > getPriority(characterList.readTailElement())) & (c != ')')) {
                 characterList.addInTail(new ListElement<>(c));
-            } else if (getPriority(c) < getPriority(characterList.readTailElement()) & (c != ')')) {
+            } else if (getPriority(c) <= getPriority(characterList.readTailElement()) & (c != ')')) {
                 do {
                     string += characterList.takeElement();
                 } while (getPriority(c) < getPriority(characterList.readTailElement()));
